@@ -1,0 +1,61 @@
+.sector{
+	transition:all .75s;
+	 
+}
+
+.sector:hover{
+    fill:#555653;
+	fill-opacity: 0.7;
+	stroke-width: .6px;
+	cursor: pointer;  
+}
+
+.seats{
+	transition:all .5s;
+}
+
+.seats:hover{
+	cursor: pointer;  
+}
+.svg_cursor:hover{
+	cursor: default;  
+}
+
+.g_cursor:hover{
+	cursor: pointer;
+}
+
+.sve{
+	width: auto; 
+	height: auto; 
+	margin: auto;
+}
+
+.Rezervacija{
+	float: left;
+	width: 15%;  
+	margin: auto;
+	background-color: #ffffff;
+	text-align: center;
+
+	font-family:Arial;
+	font-size:110%;
+}
+
+.parent{
+	float: right;
+	width: 85%;  
+	margin: auto;
+	background-color: #ffffff;
+	text-align: center;
+	
+}
+
+
+
+#Background {
+background: #54CE68;
+background: -moz-linear-gradient(-45deg, #54CE68 0%, #1C6EA4 100%, #7EB5C5 100%);
+background: -webkit-linear-gradient(-45deg, #54CE68 0%, #1C6EA4 100%, #7EB5C5 100%);
+background: linear-gradient(135deg, #54CE68 0%, #1C6EA4 100%, #7EB5C5 100%);
+}
